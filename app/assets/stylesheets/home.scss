@@ -1,0 +1,38 @@
+// Place all the styles related to the home controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+.top-header{
+  width: 100%;
+  height: 600px;
+  background-image: image-url("top_image.jpg");
+  nav{
+    color: white;
+    ul{
+      float: right;
+      font-size: 24px;
+      li{
+        display: inline-block;
+        margin-right: 15px;
+      }
+    }
+  }
+
+  .social-btn{
+    margin: 200px 0 0 500px;
+    .square_btn {
+      display: inline-block;
+      padding: 0.3em 1em;
+      text-decoration: none;
+      color: #67c5ff;
+      border: solid 2px #67c5ff;
+      border-radius: 3px;
+      transition: .4s;
+    }
+
+    .square_btn:hover {
+      background: #67c5ff;
+      color: white;
+    }
+  }
+}
