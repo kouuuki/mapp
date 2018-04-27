@@ -50,5 +50,6 @@ test:
 production:
   <<: *default
   database: mapp_production
-  username: mapp
-  password: <%= ENV['MAPP_DATABASE_PASSWORD'] %>
+  username: root
+  password: <%= ENV['DATABASE_PASSWORD'] %>
+  socket: /var/lib/mysql/mysql.sock
